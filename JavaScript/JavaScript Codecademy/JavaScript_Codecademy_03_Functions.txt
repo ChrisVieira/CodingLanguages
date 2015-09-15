@@ -1,0 +1,51 @@
+Now this is where we can put together lines of code learned in the previous documents into strands
+for the more complex coding.
+
+
+var divideByThree = function (number) {
+    var val = number / 3;
+    console.log(val);
+};
+divideByThree(6);
+
+This is called a function and it has a large amount of uses in JavaScript in order to save time typing code. This 
+function creates a variable called divideByThree, makes it no the value of the variable is equal to 1/3 the input,
+and then has the console return the solution. Therefore any number that is put into this will be 1/3 of the
+origional. Another example of a function that instead take your name and print it out in a sentence is the following.
+
+var greeting = function (name) {
+console.log("Great to see you," + " " + name);
+};
+greeting("Emily");
+
+Here are some more examples:
+
+var orangeCost = function (price)
+{ console.log(price * 5)
+    }
+orangeCost(5)
+
+var timesTwo = function(number) {
+return number * 2;
+};
+var newNumber = timesTwo(2)
+console.log(newNumber);
+
+var perimeterBox = function(length , width){
+return length + length + width + width
+}
+perimeterBox(2, 2)
+
+var my_number = 7;
+var timesTwo = function(number) {
+my_number = number * 2;
+console.log("Inside the function my_number is: ");
+console.log(my_number);
+}; 
+timesTwo(7);
+console.log("Outside the function my_number is: ")
+console.log(my_number);
+
+
+This pretty much covers function, hope it helped. Hang in there.
+-Chris

@@ -1,0 +1,44 @@
+Welcome, this is an example of what you can put your now skills to. Now I had to type this for an online lesson
+and I admit this is horrible... but none the less it still can help you decide how you can test your ability to 
+put together this program. Want to make a better program than this? Go ahead, I need one.
+
+
+
+
+
+
+
+
+
+
+
+// Check if the user is ready to play!
+confirm("ready?");
+var age = prompt("Whats your age?");
+if (age < 13) {
+console.log("You're not my problem");
+}
+else (age > 13)
+console.log(introduction)
+console.log("Suddenly, Bieber stops and says, 'Who wants to race me?'")
+var userAnswer = prompt("Do you want to race Bieber on stage?");
+if (userAnswer === 'yes')
+    console.log("You and Bieber start racing. It's neck and neck! You win by a shoelace!");
+else if (useranswer === 'no')
+console.log("Oh no! Bieber shakes his head and sings 'I set a pace, so I can race without pacing.'");
+var feedback = prompt("Rate from 1 to 10.");
+if (feedback >= 8)
+console.log("Thank you! We should race at the next concert")
+else (feedback < 8)
+console.log("I'll keep practicing coding and racing");
+var introduction = ("You are at a Justin Bieber concert, and you hear 
+this lyric 'Lace my shoes off, start racing.'")
+
+
+
+
+
+
+Dont understand parts of the code? Look at the previous document and try to find what your didnt understand here. Hang in there.
+
+-Chris
