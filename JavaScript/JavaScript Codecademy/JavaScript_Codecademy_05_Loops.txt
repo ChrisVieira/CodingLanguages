@@ -1,0 +1,13 @@
+To begin lets start with one of the first loops you will learn, the for loop. Say you wanted to print out something,
+maybe 5 or even ten times. This gets really tedious after a while so besides spamming ctrl v over and over just
+write a for loop like this.
+
+for (var counter = 1; counter < 11; counter++) {
+	console.log(counter);
+}
+
+This will have the program inside the loop repeat 10 times (11-1), so in this case it will print out counter 10 timmes.
+This will be incredibly useful for any function that requires repetative actions ten or more times. Just remember never
+have an infinite loop or it will crash your console/browser. This would happen in a function like
+(var i = 10; counter > 1; counter++)  - dont run this
+
