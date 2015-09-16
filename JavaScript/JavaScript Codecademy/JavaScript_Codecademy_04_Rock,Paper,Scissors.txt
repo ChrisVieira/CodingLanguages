@@ -1,0 +1,61 @@
+Hello all, this is an example of prompts, if else statements, and two variables. This can best be compared to a more 
+complex version of the 2nd text doc which is the Create Your Own Adventure doc(though they were presistant on making you
+make their story). This is a great example of a game that takes in the user input, creates the computers imput, and then 
+decides who wins. This may seem overly complex but with practice this is incredibly simple, infact all three else if
+else if statements are the same excluding variables. 
+
+
+
+
+var userChoice = prompt("Do you choose rock, paper or scissors?");
+var computerChoice = Math.random();
+if (computerChoice < 0.34) {
+	computerChoice = "rock";
+} else if(computerChoice <= 0.67) {
+	computerChoice = "paper";
+} else {
+	computerChoice = "scissors";
+}
+
+var compare = function(choice1, choice2) {
+ if (choice1 === choice2) {
+return "The result is a tie!";
+    }
+if(choice1 === choice2) {
+    return "The result is a tie";
+}
+
+else if(choice1 === "rock") {
+
+    if(choice2 === "scissors") {
+        return "rock wins";
+    }
+    else {
+        return "paper wins";
+    }
+}
+else if(choice1 === "paper") {
+   
+    if(choice2 === "rock") {
+        return "paper wins";
+    }
+    else {
+        return "scissors wins";
+    }    
+}
+else {
+ if(choice2 === "rock") {
+     return "rock wins";
+ }
+else {
+    return "scissors wins";
+}
+}
+};
+console.log(compare(userChoice, computerChoice));
+
+
+
+This pretty much concludes this program and feel free to run it to test it out. Hang in there.
+
+-Chris
