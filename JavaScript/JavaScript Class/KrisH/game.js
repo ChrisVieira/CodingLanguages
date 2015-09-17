@@ -57,12 +57,12 @@ function update() {
   
   if(y <= -200){
 	  y = -198
-  }else if (y >= 720){
-	  y = 719
+  }else if (y >= 120){
+	  y = 118
   }else if (x <= -100){
 	  x = -98
-  }else if (x >= 350){
-	  x = 248
+  }else if (x >= 480){
+	  x = 478
   }
 }
 
